@@ -23,7 +23,7 @@
 			<p class='text-4xl font-semibold tracking-widest text-right text-red '>LEV<br/> LAVRYNIUK</p>
 		</div>
 		<nav class='h-20 absolute rotate-90 -right-[11%] w-[30%] top-[calc(50%-40px)] flex  justify-between  '>
-		<button on:click={()=>changeSection(2)}>ABOUT</button><button >PROJECTS</button><button>CONTACT</button>
+		<button on:click={()=>changeSection(2)}>ABOUT</button ><button on:click={()=>changeSection(2)}>PROJECTS</button><button on:click={()=>changeSection(2)}>CONTACT</button>
 		</nav>
 		<ul class="absolute flex items-center justify-center gap-4 bottom-10 right-10">
 			<li><a href='https://github.com/Lavryniukk'><img src={githubLogoSrc} alt=""></a></li>
